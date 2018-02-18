@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <!-- 浏览器标签标题 Start -->
+        <title>Bootstrap-Table页面=前端学习框架教程</title>
+        <!-- 浏览器标签标题 End -->
+        <!-- 浏览器标签图标 Start -->
+            <link rel="shortcut icon" href="favicon.ico">
+        <!-- 浏览器标签图标 End -->
+        <!-- 页面样式 资源 Start -->
+            <link href="vendor/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+            <!-- bootstrap-table 样式资源 Start -->
+            <!-- <link rel="stylesheet" href="vendor/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">   -->
+            <link rel="stylesheet" href="vendor/bootstrap/bootstrap-table-develop/src/bootstrap-table.css">  
+            <!-- bootstrap-table 样式资源 End -->
+        <!-- 页面样式 资源 End -->
+    </head>
+    <body>
+        <h1>Bootstrap_Table页面</h1>
+        <h1>表1</h1>
+        <table id="table1"></table>  
+        <!-- 表2 区域 Start -->
+        <h1>表2</h1>
+        <div id="toolbar2" class="btn-group">
+            <button id="btn_add" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+            </button>
+            <button id="btn_edit" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+            </button>
+            <button id="btn_delete" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+            </button>
+        </div>
+        <table id="tb2_departments"></table>
+        <!-- 表2 区域 End -->
+
+        <!-- 表3 区域 Start -->
+        <h1>表3</h1>
+        <div id="toolbar3" class="btn-group">
+            <button id="btn_add" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+            </button>
+            <button id="btn_edit" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+            </button>
+            <button id="btn_delete" type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+            </button>
+        </div>
+        <table id="tb3_departments"></table>
+        <!-- 表3 区域 End -->
+
+        <!-- js资源 Start -->
+            <!-- jQuery js资源 Start -->
+            <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+            <!-- jQuery js资源 End -->
+            <!-- bootstrap 基础 js资源 Start -->
+            <script src="vendor/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <!-- bootstrap 基础 js资源 End -->
+            <!-- <script src="vendor/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>   -->
+            <script src="vendor/bootstrap/bootstrap-table-develop/src/bootstrap-table.js"></script>  
+            <script src="vendor/bootstrap/bootstrap-table-develop/dist/locale/bootstrap-table-zh-CN.js"></script>  
+            <!-- 框架公共js配置 Start -->
+                <script src="common/config.js"></script>
+                <!-- 请求路由 Start-->
+                <script src="common/route.js"></script>
+                <!-- 请求路由 End-->
+                <!-- 公共函数js Satrt -->
+                <script src="common/function.js"></script>
+                <!-- 公共函数js End -->
+            <!-- 框架公共配置 End -->
+            <!-- 自定义js Start -->
+                <script src="page/bootstrap_table/bootstrap_table.js"></script>
+            <!-- 自定义js End -->
+        <!-- js资源 End -->
+    </body>
+</html>
