@@ -1,0 +1,2038 @@
+[ 2018-01-12T12:21:37+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1:11001/ [运行时间：1.175000s][吞吐率：0.85req/s] [内存消耗：2,627.41kb] [文件加载：50]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:1.112000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.045000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_system_config` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_system_config` [ RunTime:0.001000s ]
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T12:21:37+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,666.73kb] [文件加载：42]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:56:01+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1:11001/ [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：1,666.91kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:56:01+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.70kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:56:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：1,320.15kb] [文件加载：34]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BooteStrapTable',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-12T14:56:40+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,669.37kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:57:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,371.97kb] [文件加载：36]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BooteStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\ApiCommon' not found[C:\Code\php_code\test_server\php\application\api\controller\BooteStrapTables.php:16]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:57:09+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：1,669.76kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:57:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,359.43kb] [文件加载：35]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BooteStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-12T14:57:46+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:58:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,419.17kb] [文件加载：38]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BooteStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-12T14:58:22+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:58:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,419.17kb] [文件加载：38]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BooteStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-12T14:58:23+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:58:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,419.17kb] [文件加载：38]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BooteStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-12T14:58:24+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:59:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.251000s][吞吐率：0.80req/s] [内存消耗：2,683.05kb] [文件加载：54]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sort' in 'order clause'[C:\Code\php_code\test_server\php\thinkphp\library\think\db\Connection.php:399]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.166000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:59:02+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:59:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.072000s][吞吐率：0.93req/s] [内存消耗：2,690.13kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.024000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T14:59:47+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:03:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.107000s][吞吐率：0.90req/s] [内存消耗：2,688.13kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.034000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:03:32+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:03:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.118000s][吞吐率：0.89req/s] [内存消耗：2,688.13kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.046000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:03:38+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:21:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.126000s][吞吐率：0.89req/s] [内存消耗：2,688.13kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:21:08+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:23:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.095000s][吞吐率：0.91req/s] [内存消耗：2,608.14kb] [文件加载：49]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.027000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:23:42+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:24:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.126000s][吞吐率：0.89req/s] [内存消耗：2,631.45kb] [文件加载：49]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.052000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:24:37+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:24:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.094000s][吞吐率：0.91req/s] [内存消耗：2,690.31kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.024000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:24:51+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:25:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list
+[ log ] 127.0.0.1:11001/index.php/api/bootstraptable/list [运行时间：1.102000s][吞吐率：0.91req/s] [内存消耗：2,690.30kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:25:18+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.79kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11001',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11001/index.php/api/bootstraptable/list',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742459829
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742459829 [运行时间：1.119000s][吞吐率：0.89req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515742459829',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.052000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:34:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742459830
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742459830 [运行时间：1.116000s][吞吐率：0.90req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515742459830',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.063000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:41:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742900017
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742900017 [运行时间：1.114000s][吞吐率：0.90req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515742900017',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:43:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742994380
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515742994380 [运行时间：1.096000s][吞吐率：0.91req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515742994380',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.041000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:53:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515743628899
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515743628899 [运行时间：1.129000s][吞吐率：0.89req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515743628899',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.054000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:54:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515743691156
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515743691156 [运行时间：1.107000s][吞吐率：0.90req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515743691156',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T15:57:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515743832891
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515743832891 [运行时间：1.104000s][吞吐率：0.91req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515743832891',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:07:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744469339
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744469339 [运行时间：1.221000s][吞吐率：0.82req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515744469339',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.138000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:07:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744469637
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744469637 [运行时间：1.108000s][吞吐率：0.90req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515744469637',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.037000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:07:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744473659
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744473659 [运行时间：1.085000s][吞吐率：0.92req/s] [内存消耗：2,691.29kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515744473659',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.022000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:08:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744496162
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515744496162 [运行时间：1.110000s][吞吐率：0.90req/s] [内存消耗：2,691.29kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515744496162',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.054000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:23:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745427583
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745427583 [运行时间：1.113000s][吞吐率：0.90req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515745427583',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.047000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:25:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745536939
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745536939 [运行时间：1.086000s][吞吐率：0.92req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515745536939',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:28:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745703966
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745703966 [运行时间：1.131000s][吞吐率：0.88req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515745703966',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.052000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:28:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745722762
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745722762 [运行时间：1.121000s][吞吐率：0.89req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515745722762',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.049000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:29:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745770104
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745770104 [运行时间：1.076000s][吞吐率：0.93req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515745770104',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.023000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:30:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745832995
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745832995 [运行时间：1.103000s][吞吐率：0.91req/s] [内存消耗：2,691.23kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://127.0.0.1/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'ECS[history]=155%2C10',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515745832995',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.039000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:31:24+08:00 ] ::1 ::1 GET /
+[ log ] localhost:11001/ [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,666.58kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:11001',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:31:25+08:00 ] ::1 ::1 GET /favicon.ico
+[ log ] localhost:11001/favicon.ico [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,669.04kb] [文件加载：43]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:11001',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:11001/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Base->miss[ C:\Code\php_code\test_server\php\application\home\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-01-12T16:31:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745890940
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1515745890940 [运行时间：1.104000s][吞吐率：0.91req/s] [内存消耗：2,690.79kb] [文件加载：52]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Code\php_code\test_server\php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://localhost/bootstrap_table_edit.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1515745890940',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\Code\php_code\test_server\php\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\Code\php_code\test_server\php\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023000s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bwh_bootstrap_table` [ RunTime:0.036000s ]
+[ sql ] [ SQL ] SELECT * FROM `bwh_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------

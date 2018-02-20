@@ -1,0 +1,58 @@
+[ 2018-01-27T02:56:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] 127.0.0.1:11002/ [运行时间：0.223013s][吞吐率：4.48req/s] [内存消耗：1,117.23kb] [文件加载：32]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.018001s ]
+[ info ] [ LANG ] C:\Code\code_studio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-01-27T02:56:43+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] 127.0.0.1:11002/favicon.ico [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,119.84kb] [文件加载：32]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Code\code_studio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:11002',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:11002/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

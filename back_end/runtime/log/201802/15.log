@@ -1,0 +1,314 @@
+[ 2018-02-15T21:15:47+08:00 ] ::1 ::1 GET /
+[ log ] localhost:11002/ [运行时间：0.092499s][吞吐率：10.81req/s] [内存消耗：1,423.57kb] [文件加载：40]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.012638s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:11002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->miss[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-02-15T21:15:48+08:00 ] ::1 ::1 GET /favicon.ico
+[ log ] localhost:11002/favicon.ico [运行时间：0.041797s][吞吐率：23.93req/s] [内存消耗：1,426.10kb] [文件加载：40]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003537s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'base',
+    2 => 'miss',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:11002',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:11002/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->miss[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\common\controller\Common.php:20]
+
+---------------------------------------------------------------
+[ 2018-02-15T22:46:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706011806
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706011806 [运行时间：1.139622s][吞吐率：0.88req/s] [内存消耗：2,403.38kb] [文件加载：49]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.005456s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://qianduan.studio.com/bootstrap_table_edit2.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1518706011806',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\common\controller\Common.php:20]
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'test_server'[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------
+[ 2018-02-15T22:49:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706188538
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706188538 [运行时间：1.121950s][吞吐率：0.89req/s] [内存消耗：2,431.68kb] [文件加载：49]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.004631s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://qianduan.studio.com/bootstrap_table_edit2.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1518706188538',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025130s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `debug_bootstrap_table` [ RunTime:0.019187s ]
+[ sql ] [ SQL ] SELECT * FROM `debug_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.003064s ]
+
+---------------------------------------------------------------
+[ 2018-02-15T22:50:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706231898
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706231898 [运行时间：1.120435s][吞吐率：0.89req/s] [内存消耗：2,431.05kb] [文件加载：49]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003550s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://qianduan.studio.com/bootstrap_table_edit1.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1518706231898',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025685s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `debug_bootstrap_table` [ RunTime:0.023609s ]
+[ sql ] [ SQL ] SELECT * FROM `debug_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002131s ]
+
+---------------------------------------------------------------
+[ 2018-02-15T22:50:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706240683
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706240683 [运行时间：1.373679s][吞吐率：0.73req/s] [内存消耗：2,431.05kb] [文件加载：49]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.003418s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://qianduan.studio.com/bootstrap_table_edit2.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1518706240683',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016448s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `debug_bootstrap_table` [ RunTime:0.279709s ]
+[ sql ] [ SQL ] SELECT * FROM `debug_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.002465s ]
+
+---------------------------------------------------------------
+[ 2018-02-15T22:59:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706742985
+[ log ] testurl/index.php/api/bootstraptable/list?limit=10&offset=0&_=1518706742985 [运行时间：1.210641s][吞吐率：0.83req/s] [内存消耗：2,431.08kb] [文件加载：49]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.010297s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'listdata',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://qianduan.studio.com/bootstrap_table_edit2.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  'offset' => '0',
+  '_' => '1518706742985',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->listdata[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: HTTP_ORIGIN[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\common\controller\Common.php:20]
+[ error ] [8]未定义数组索引: page_no[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:36]
+[ error ] [8]未定义数组索引: page_size[C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php:37]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.038712s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `debug_bootstrap_table` [ RunTime:0.023639s ]
+[ sql ] [ SQL ] SELECT * FROM `debug_bootstrap_table` WHERE  `status` = 1 [ RunTime:0.003936s ]
+
+---------------------------------------------------------------
+[ 2018-02-15T23:00:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/bootstraptable/edit
+[ log ] testurl/index.php/api/bootstraptable/edit [运行时间：1.200501s][吞吐率：0.83req/s] [内存消耗：2,384.39kb] [文件加载：46]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run app\common\behavior\InitConfigBehavior @app_init [ RunTime:0.005878s ]
+[ info ] [ LANG ] C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'BootStrapTables',
+    2 => 'edit',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'testurl',
+  'connection' => 'close',
+  'content-length' => '77',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://qianduan.studio.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://qianduan.studio.com/bootstrap_table_edit2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  0 => 'false',
+  'tid' => '3',
+  'title' => 'fdgd',
+  'remark' => '2018-01-31',
+  'create_time' => '',
+  'update_time' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\api\controller\BootStrapTables->edit[ C:\XzbWorkSpace\CodeStudio\php_code\test_server\php506\application\api\controller\BootStrapTables.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025142s ] mysql:dbname=test_server;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `debug_bootstrap_table` [ RunTime:0.083588s ]
+[ sql ] [ SQL ] UPDATE `debug_bootstrap_table`  SET `remark`='2018-01-31',`title`='fdgd'  WHERE  `tid` = 3 [ RunTime:0.011600s ]
+[ sql ] [ SQL ] SELECT * FROM `debug_bootstrap_table` WHERE  `tid` = 3 LIMIT 1 [ RunTime:0.003405s ]
+
+---------------------------------------------------------------
