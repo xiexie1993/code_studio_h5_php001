@@ -3,8 +3,8 @@
 <pre><code>
 
 ./                          根目录
-├─ front_studio_ngix.cnf          nginx的配置
-├─ front_studio_apache.cnf        apache的虚拟目录配置
+├─ front_studio_ngix.conf          nginx的配置
+├─ front_studio_apache.conf        apache的虚拟目录配置
 ├─ StartNG.bat                    windows的脚本（开关nginx）
 ├─ README.md                      自述文件
 └─ ...
